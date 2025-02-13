@@ -1,0 +1,13 @@
+# pubspec.yaml : Dart 패키지의 설정 파일
+# 테스트 예제
+name: test_example
+description: "Dart Test Example"
+
+# environment: Dart SDK 버전을 지정
+environment:
+  sdk: ^3.6.0
+
+# dependencies: 의존성 패키지 목록, dev_dependencies: 개발용 의존성 패키지 목록
+# 테스트를 위한 패키지를 추가
+dev_dependencies:
+  test: ^1.25.15

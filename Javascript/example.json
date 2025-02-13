@@ -1,0 +1,19 @@
+{
+  "comment": "JSON 형식 예제",
+  "name": "John",
+  "age": 30,
+  "city": "New York",
+  "array": [1, 2, 3, 4, 5],
+  "object": {
+    "name": "John",
+    "age": 30,
+    "city": "New York",
+    "arrayObjects": [
+      {
+        "name": "John",
+        "age": 30,
+        "city": "New York"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>rainbow.html</title>
+    <!-- CSS 표준 위치 -->
+    <style>
+      /* 이 것 밖에, // 는 동작 안함 */
+      #button1 {
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    a &lt; b, c &gt; d
+    <button id="button1">클릭하세요.</button>
+    <!-- Javascript 의 위치 -->
+    <script>
+      const button = document.getElementById("button1");
+      const colors = [
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "rebeccapurple",
+        "violet",
+      ];
+      /*
+      여러줄 주석
+      */
+      // 한 줄 주석
+      function change() {
+        document.body.style.background = colors[Math.floor(7 * Math.random())]; // 0.1111, 0.37, 1.0 -> 0.0 ~ 7.0
+      }
+
+      button.addEventListener("click", change);
+    </script>
+  </body>
+</html>
